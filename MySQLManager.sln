@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQLManager", "MySQLManager\MySQLManager.csproj", "{301695C9-D722-4CA2-9999-35AB1FC30BFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{37844371-CBD9-4826-A873-80A9504412FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{301695C9-D722-4CA2-9999-35AB1FC30BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301695C9-D722-4CA2-9999-35AB1FC30BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301695C9-D722-4CA2-9999-35AB1FC30BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37844371-CBD9-4826-A873-80A9504412FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37844371-CBD9-4826-A873-80A9504412FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37844371-CBD9-4826-A873-80A9504412FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37844371-CBD9-4826-A873-80A9504412FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

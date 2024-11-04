@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mapper>
+	<INSERT id="Insert">
+		<![CDATA[
+INSERT INTO
+  test
+  (
+      userId,
+	  userName
+  )
+VALUE
+  (
+      @userId,
+	  @userName
+  );
+		]]>
+	</INSERT>
+
+	<SELECT id="Select">
+		<![CDATA[
+SELECT
+  userName
+FROM
+  test
+WHERE
+  userId = @userId
+	]]>
+	</SELECT>
+
+	<UPDATE id="Update">
+		<![CDATA[
+UPDATE
+  test
+SET
+  userName = @userName
+WHERE
+  userId = @userId
+	]]>
+	</UPDATE>
+
+</mapper>
