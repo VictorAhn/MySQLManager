@@ -14,7 +14,14 @@ namespace MySQLManager
     {
         public static readonly Dictionary<ConnectionStringEnum, string> MySqlStorage = new()
         {
-            { ConnectionStringEnum.Default, $"Server=192.168.0.8;Port=3306;Database=User;Uid=admin;Pwd=passwd;Allow User Variables=True" }
+            { 
+                ConnectionStringEnum.Default, 
+                $"Server={Environment.GetEnvironmentVariable("Service_DB_IP")};" +
+                $"Port={Environment.GetEnvironmentVariable("Service_DB_Port")};" +
+                $"Database={Environment.GetEnvironmentVariable("Service_DB_Name")};" +
+                $"Uid={Environment.GetEnvironmentVariable("Service_DB_Uid")};" +
+                $"Pwd={Environment.GetEnvironmentVariable("Service_DB_Pwd")};" +
+                $"Allow User Variables=True" }
         };
     }
 }
